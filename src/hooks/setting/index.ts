@@ -9,7 +9,7 @@ export const useGlobSetting = (): Readonly<GlobConfig> => {
     VITE_GLOB_API_URL_PREFIX,
     VITE_GLOB_UPLOAD_URL,
     VITE_GLOB_ADMIN_MONITOR_URL,
-    VITE_GLOB_POWERJOB_URL,
+    VITE_GLOB_SNAILJOB_URL,
     VITE_GLOB_RSA_PUBLIC_KEY,
     VITE_GLOB_APP_CLIENT_ID,
     VITE_GLOB_WEBSOCKET_ENABLE,
@@ -25,8 +25,8 @@ export const useGlobSetting = (): Readonly<GlobConfig> => {
     uploadUrl: VITE_GLOB_UPLOAD_URL,
     // springadmin地址
     adminMonitorUrl: VITE_GLOB_ADMIN_MONITOR_URL,
-    // powerjob地址
-    powerjobUrl: VITE_GLOB_POWERJOB_URL,
+    // snailjob地址
+    snailjobUrl: VITE_GLOB_SNAILJOB_URL,
     // RSA公钥
     rsaPublicKey: VITE_GLOB_RSA_PUBLIC_KEY,
     // 客户端key

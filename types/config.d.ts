@@ -150,8 +150,8 @@ export interface GlobConfig {
   shortName: string;
   // springadmin地址
   adminMonitorUrl?: string;
-  // powerjob地址
-  powerjobUrl?: string;
+  // snailjob地址
+  snailjobUrl?: string;
   // RSA公钥
   rsaPublicKey: string;
   // 客户端key
@@ -172,8 +172,8 @@ export interface GlobEnvConfig {
   VITE_GLOB_UPLOAD_URL?: string;
   // admin监控地址
   VITE_GLOB_ADMIN_MONITOR_URL?: string;
-  // powerjob地址
-  VITE_GLOB_POWERJOB_URL?: string;
+  // snailjob地址
+  VITE_GLOB_SNAILJOB_URL?: string;
   // RSA公钥
   VITE_GLOB_RSA_PUBLIC_KEY: string;
   // 客户端ID
